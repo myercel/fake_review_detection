@@ -95,7 +95,8 @@ def classification_results(df_train, df_test, features):
 	                               n_estimators=1200,
 	                               min_samples_leaf=3,
 	                               min_samples_split=6,
-	                               max_features='auto',
+								   # Default for max_features is "sqrt"
+	                               # max_features='auto',
 	                               max_depth=40,
 	                               bootstrap=True,
 	                               n_jobs=-1)

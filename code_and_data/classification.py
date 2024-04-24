@@ -74,7 +74,8 @@ def classification_results(df, features=None, stars=None):
 	                               n_estimators=100,
 	                               min_samples_leaf=3,
 	                               min_samples_split=6,
-	                               max_features='auto',
+								   # Default for max_features is "sqrt"
+	                               # max_features='auto',
 	                               max_depth=40,
 	                               bootstrap=True,
 	                               n_jobs=-1)

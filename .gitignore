@@ -1,3 +1,4 @@
 # Ignore adding these files to git
 .DS_Store
 UCSD_home_and_kitchen_reviews.csv
+UCSD_home_and_kitchen_reviews.csv.gz
